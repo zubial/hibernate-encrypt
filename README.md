@@ -1,5 +1,5 @@
 # Java Hibernate Encryption library
-This library brings new types field mapping for hibernate. These types allow encoding and decoding for Text fields.
+This library brings new types field for hibernate mapping. These types allow encoding and decoding Text fields.
 
 Searches on these fields remain possible, but only in equal (case-sensitive). It is advisable to manage the case at insertion.
 
