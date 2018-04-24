@@ -3,6 +3,7 @@ This library brings new types field for hibernate mapping. These types allow enc
 
 Searches on these fields remain possible, but only in equal (case-sensitive). It is advisable to manage the case at insertion.
 
+Used with Spring 4 / Hibernate 5 / Oracle db
 
 # ChangeLogs
 
