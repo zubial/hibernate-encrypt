@@ -156,21 +156,4 @@
         </plugins>
     </reporting>
 
-    <distributionManagement>
-        <repository>
-            <id>deployment</id>
-            <name>SBE Releases</name>
-            <url>http://10.107.1.133:8080/nexus/content/repositories/releases/</url>
-        </repository>
-        <snapshotRepository>
-            <id>deployment</id>
-            <name>SBE Releases</name>
-            <url>http://10.107.1.133:8080/nexus/content/repositories/snapshots/</url>
-        </snapshotRepository>
-        <site>
-            <id>javadoc.sbeglobalcare.sns</id>
-            <url>scp://webcontent@javadoc.sbeglobalcare.sns:/var/www/html/javadoc.sbeglobalcare.sns/${project.name}/</url>
-        </site>
-    </distributionManagement>
-
 </project>
