@@ -7,9 +7,11 @@
     <groupId>net.zubial</groupId>
     <artifactId>hibernate-encrypt</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
 
     <name>hibernate-encrypt</name>
     <description>Hibernate encryption library</description>
+    <url>https://github.com/zubial/hibernate-encrypt</url>
 
     <scm>
         <connection>scm:git:https://github.com/zubial/hibernate-encrypt.git</connection>
@@ -17,6 +19,14 @@
         <url>https://github.com/zubial/hibernate-encrypt</url>
         <tag>HEAD</tag>
     </scm>
+
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
 
     <dependencies>
         <dependency>
