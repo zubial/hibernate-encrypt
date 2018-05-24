@@ -11,7 +11,7 @@
 
     <name>hibernate-encrypt</name>
     <description>Hibernate encryption library</description>
-    <url>https://github.com/zubial/hibernate-encrypt</url>
+    <url>https://hibernate-encrypt.zubial.net/</url>
 
     <scm>
         <connection>scm:git:https://github.com/zubial/hibernate-encrypt.git</connection>
