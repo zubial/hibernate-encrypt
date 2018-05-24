@@ -49,6 +49,12 @@ Used with Spring 4 / Hibernate 5 / Oracle db
         <property name="registeredName">
             <value>hibernatePoolEncryptor</value>
         </property>
+        <property name="algorithm">
+            <value>[algorithm, default AES/CBC/PKCS5Padding]</value>
+        </property>
+        <property name="messageCharset">
+            <value>[messageCharset, default UTF-8]</value>
+        </property>
         <property name="passwordPathfile">
             <value>[textfile included password]</value>
         </property>
@@ -64,7 +70,7 @@ Used with Spring 4 / Hibernate 5 / Oracle db
     </bean>
 ```
 
-- Declare new Hibernate type (package-info.java inside hibernate entities)
+- Declare new Hibernate type (package-info.java inside hibernate entities package)
 ```
     @TypeDefs({
             @TypeDef(name = "encryptedString", typeClass = PBEHibernateStringType.class, parameters = {

@@ -22,7 +22,6 @@ public abstract class AbstractPBEEncryptor implements IPBEEncryptor {
 
     private static final Logger LOGGER = LogManager.getLogger(AbstractPBEEncryptor.class); // NOSONAR
 
-    private static final String KEY = "GYUfds60dnkz96";
     protected PBEConfig config = null;
 
     // Encryption key generated.
@@ -85,7 +84,7 @@ public abstract class AbstractPBEEncryptor implements IPBEEncryptor {
             }
 
             try {
-                byte[] keyPassword = CryptoUtils.hashMD5(new String(configPassword) + KEY);
+                byte[] keyPassword = CryptoUtils.hashMD5(new String(configPassword));
                 CryptoUtils.cleanPassword(configPassword);
 
                 secretKeySpec = new SecretKeySpec(keyPassword, "AES");
