@@ -175,12 +175,12 @@
 
     <distributionManagement>
         <repository>
-            <id>deployment</id>
+            <id>ossrh</id>
             <name>Sonatype RELEASES</name>
             <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
         </repository>
         <snapshotRepository>
-            <id>deployment</id>
+            <id>ossrh</id>
             <name>Sonatype SNAPSHOTS</name>
             <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
         </snapshotRepository>
