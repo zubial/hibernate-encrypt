@@ -11,6 +11,13 @@
     <description>Hibernate encryption library</description>
     <url>https://hibernate-encrypt.zubial.net/</url>
 
+    <developers>
+        <developer>
+            <id>bertrandrodrigues</id>
+            <name>Bertrand RODRIGUES</name>
+        </developer>
+    </developers>
+
     <scm>
         <connection>scm:git:https://github.com/zubial/hibernate-encrypt.git</connection>
         <developerConnection>scm:git:https://github.com/zubial/hibernate-encrypt.git</developerConnection>
