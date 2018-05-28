@@ -11,7 +11,7 @@ Used with Spring 4 / Hibernate 5 / Oracle db
 - Initial commit
 
 # Usage
-- Add this library /bin/hibernate-encrypt-1.0-SNAPSHOT.jar
+- Add this library /bin/hibernate-encrypt-1.x.jar
 (Not yet on Maven central)
 
 - Check dependancies
