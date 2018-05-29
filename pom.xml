@@ -91,9 +91,6 @@
                         <goals>
                             <goal>jar</goal>
                         </goals>
-                        <configuration>
-                            <excludePackageNames>*.*</excludePackageNames>
-                        </configuration>
                     </execution>
                 </executions>
             </plugin>
