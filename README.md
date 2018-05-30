@@ -11,35 +11,13 @@ Used with Spring 4 / Hibernate 5 / Oracle db
 - Initial commit
 
 # Usage
-- Add this library /bin/hibernate-encrypt-1.x.jar
-(Not yet on Maven central)
-
-- Check dependancies
+- Dependency
 ```
-    <dependencies>
-        <dependency>
-            <groupId>commons-io</groupId>
-            <artifactId>commons-io</artifactId>
-            <version>2.3</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.commons</groupId>
-            <artifactId>commons-lang3</artifactId>
-            <version>3.2.1</version>
-        </dependency>
-    
-        <dependency>
-            <groupId>org.hibernate</groupId>
-            <artifactId>hibernate-core</artifactId>
-            <version>5.1.0.Final</version>
-        </dependency>
-    
-        <dependency>
-            <groupId>org.apache.logging.log4j</groupId>
-            <artifactId>log4j-core</artifactId>
-            <version>2.8.2</version>
-        </dependency>
-    </dependencies>
+    <dependency>
+        <groupId>net.zubial</groupId>
+        <artifactId>hibernate-encrypt</artifactId>
+        <version>1.4</version>
+    </dependency>
 ```
 
 - Declare the Encryptor pool as a new bean (Spring applicationContext)
